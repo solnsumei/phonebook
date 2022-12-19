@@ -57,6 +57,6 @@ func main() {
 		list()
 	// Response to anything that is not a match
 	default:
-		fmt.Println("Not a valid option")
+		fmt.Println("Not a valid option. Usage: search|list <arguments>")
 	}
 }

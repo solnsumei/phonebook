@@ -13,9 +13,9 @@ type Entry struct {
 }
 
 var data = []Entry{
-	Entry{"Solomon", "Nsumei", "234901111111"},
-	Entry{"Ejiro", "Chuks", "234901231111"},
-	Entry{"Eva", "Doe", "23490112222"},
+	{"Solomon", "Nsumei", "234901111111"},
+	{"Ejiro", "Chuks", "234901231111"},
+	{"Eva", "Doe", "23490112222"},
 }
 
 func search(key string) *Entry {
